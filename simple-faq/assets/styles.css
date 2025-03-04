@@ -45,19 +45,40 @@ h1 {
 /* responsive settings */
 
 @media screen and (max-width: 1280px) {
-    html {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    }
+  
     section {
-        position: fixed;
-        top: 170px;
+        position:relative;
+        top: 0;
         bottom: 0;
         width: 100%;
+        left:0%;
     }
 
 }
 
+@media screen and (max-width: 1024px) {
+   
+    section {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        left:0%;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+   
+    
+    section {
+        position: relative;
+        top: 0;
+        bottom: 170px;
+        width: 100%;
+        left:0%;
+    }
+
+}
 
 
