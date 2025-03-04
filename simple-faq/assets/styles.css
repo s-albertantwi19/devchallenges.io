@@ -7,12 +7,15 @@ html{
 }
 header{
     background-color: #FFFFFF;
-   
+}
 
+header > h5 {
+    font-weight: normal ;
 }
 
 section{
     background-color:#F8FAFC ;
+    padding:0;
 }
 .inner-section{
     background-color: #F8FAFC ;
@@ -23,6 +26,11 @@ section{
     padding: 10px;
 }
 
+ul, ol {
+    padding:0;
+}
+
+
 h1 {
     font-family: 'Inter';
     font-size: 2.25rem;
@@ -32,3 +40,6 @@ h1 {
 .text-weight{
     font-weight: bold;
 }
+
+/* responsive settings */
+
