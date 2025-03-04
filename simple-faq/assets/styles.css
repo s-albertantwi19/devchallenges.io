@@ -16,6 +16,7 @@ header > h5 {
 section{
     background-color:#F8FAFC ;
     padding:0;
+    height:100%;
 }
 .inner-section{
     background-color: #F8FAFC ;
@@ -42,4 +43,21 @@ h1 {
 }
 
 /* responsive settings */
+
+@media screen and (max-width: 1280px) {
+    html {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    }
+    section {
+        position: fixed;
+        top: 170px;
+        bottom: 0;
+        width: 100%;
+    }
+
+}
+
+
 
